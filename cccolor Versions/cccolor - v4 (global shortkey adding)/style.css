@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+#app {
+display: flex-center;
+align-items: center;
+
+    margin: auto;
+width: 240px;
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+button {
+    padding: 12px 16px;
+    border: none;
+    background-color: #0078D7;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px 0;
+font-size: 16px;
+align-items: center;
+gap: 8px;
+display: flex;
+position: center;	
+
+
+}
+
+button:hover {
+   
+border-radius: 8px;
+background: linear-gradient(0deg, rgba(72, 14, 126, 0.50) 0%, rgba(72, 14, 126, 0.50) 100%), linear-gradient(303deg, #FFF 21.88%, rgba(255, 255, 255, 0.32) 29.63%, #FFF 39%, rgba(255, 255, 255, 0.32) 46.76%, #FFF 53.22%, rgba(255, 255, 255, 0.32) 61.62%, #FFF 69.7%, rgba(255, 255, 255, 0.32) 78.1%, #FFF 86.5%), #7522C5;
+background: linear-gradient(0deg, color(display-p3 0.2563 0.0745 0.4755 / 0.50) 0%, color(display-p3 0.2563 0.0745 0.4755 / 0.50) 100%), linear-gradient(303deg, color(display-p3 1 1 1 / 0.00) 21.88%, color(display-p3 1 1 1 / 0.32) 29.63%, color(display-p3 1 1 1 / 0.00) 39%, color(display-p3 1 1 1 / 0.32) 46.76%, color(display-p3 1 1 1 / 0.00) 53.22%, color(display-p3 1 1 1 / 0.32) 61.62%, color(display-p3 1 1 1 / 0.00) 69.7%, color(display-p3 1 1 1 / 0.32) 78.1%, color(display-p3 1 1 1 / 0.00) 86.5%), color(display-p3 0.4235 0.1569 0.7451);
+background-blend-mode: normal, color-dodge, normal;
+}
+
+#colorInfo{
+padding: 20px;
+background: #FAFCFF;
+border-left: 2.5px solid blue;
+border-right: 2.5px solid #fff;
+border-top: 2.5px solid #fff;
+border-bottom: 2.5px solid #fff;
+}
+
+#colorInfo:hover{
+background: #FAFBFC;
+border: 2.5px solid blue;
+#colorInfo p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#history {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#colorHistory {
+    list-style: none;
+    padding: 0;
+}
+
+#colorHistory li {
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #eee;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Wow Rakibul",
+  "description": "Wow Rakibul extension is made by [x.com/wowrakibul] for using his own about.",
+  "version": "10.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "avatar.png"
+  }
+}
